@@ -1,0 +1,72 @@
+:root {
+    --cf-hot-pink: #FF90BC;
+    --cf-pink: #FFC0D9;
+    --cf-beige: #F9F9E0;
+    --cf-blue: #8ACDD7;
+}
+
+@media (min-width: 600px) {
+    #header {}
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--cf-beige);
+}
+
+#header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--cf-hot-pink);
+    width: 100%
+}
+
+#header-img {
+    background-color: var(--cf-beige);
+    width: 7rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    padding: .2rem;
+    float: left;
+    border: 3px solid var(--cf-pink);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    list-style-type: none;
+    display: flex;
+    gap: 2rem;
+    margin: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    background-color: var(--cf-beige);
+    padding: .5rem;
+    border-radius: .5rem;
+    border: 3px solid var(--cf-blue);
+    color: black;
+}
+
+nav a:hover {
+    background-color: var(--cf-beige);
+    color: var(--cf-pink);
+}
+
+main {
+    padding-top: 7rem;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h1>span {
+    font-size: .75rem;
+}
